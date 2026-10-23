@@ -1,0 +1,17 @@
+{
+  "name": "customer-support-client",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser client for the Customer Support voice agent (Pipecat RTVI + SmallWebRTC)",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --minify --format=esm --target=es2020 --sourcemap --outfile=../static/assets/app.js",
+    "watch": "esbuild src/main.js --bundle --format=esm --target=es2020 --sourcemap --outfile=../static/assets/app.js --watch"
+  },
+  "dependencies": {
+    "@pipecat-ai/client-js": "1.14.0",
+    "@pipecat-ai/small-webrtc-transport": "1.11.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
