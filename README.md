@@ -12,7 +12,11 @@ databases instead of guessing.
 
 ## Demo
 
-🎬 [Watch the demo video](docs/demo.mp4)
+
+
+https://github.com/user-attachments/assets/b2764816-cea1-43f3-9cdb-b00158285314
+
+
 
 
 ## Built With
